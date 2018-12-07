@@ -79,11 +79,11 @@ public class Shuoshuo{
 	        Thread.sleep(3000 );
 	        lr.logWrite("输入账号");
 	        driver.findElement(By.id("u")).click();
-	        driver.findElement(By.id("u")).sendKeys("2014848963@qq.com");
+	        driver.findElement(By.id("u")).sendKeys("");
 	        Thread.sleep(1000);
 	        lr.logWrite("输入密码");
 	        driver.findElement(By.id("p")).click();
-	        driver.findElement(By.id("p")).sendKeys("hang0511");
+	        driver.findElement(By.id("p")).sendKeys("");
 	        Thread.sleep(1000);
 	        lr.logWrite("登录");
 	        driver.findElement(By.id("go")).click();
